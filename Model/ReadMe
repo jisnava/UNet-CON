@@ -1,0 +1,34 @@
+Files Included: 
+args.py
+dataset.py
+eval.py
+inference_3_2.py
+loss.py
+metrics.py
+train.py
+requires.txt
+ReadMe.doc
+result_model_3.png
+loss_plot_contact_MAP_Attention_Unet_Model_3_70_epochs_lr_2.png
+
+Main Files:
+main_1.py
+main_2.py
+main_3.py
+main_4.py
+main_5.py
+
+5 model files: 
+model_1_UNet_LR_3_RUNNING.py
+model_2_UNet_Residual_LR_3_RUNNING.py
+model_3_Attention_UNet_LR_2_RUNNING.py
+model_4_Recurrent_Residual_Attention_UNet_LR_3_RUNNING.py
+model_5_Residual_Attention_Unet_RUNNING.py
+
+
+To run the script:
+Change the paths to read the input files (in args.py)
+Change the path to save the weights and loss values (in main_<model_number>.py)
+Install the needed dependencies using requires.txt // Or any pytoch container with "transformer" module will do the task.
+Run the file main_<model_number>.py // Cross check the main file for parameters like learning rates, epochs etc. You can change the paths for saving the model weights in main file itself.
+ 
